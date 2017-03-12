@@ -5,7 +5,10 @@ body {
 	counter-reset: gridcounter;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-	background-color: #ffffff;
+	background: -webkit-linear-gradient(top, #ffffff 0%, #e5e5e5 100%) no-repeat fixed #ffffff;
+	background: -moz-linear-gradient(top, #ffffff 0%, #e5e5e5 100%) no-repeat fixed #ffffff;
+	background: linear-gradient(to bottom, #ffffff 0%, #e5e5e5 100%) no-repeat fixed #ffffff;
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e5e5e5',GradientType=0 );
 }
 
 
@@ -28,8 +31,10 @@ body {
 }
 
 
-.qmg {
-	background-image: url(https://s3.amazonaws.com/quadmg/img/p/quad.png);
-	width: 350px;
+.qml {
 	height: auto;
+	width: 250px;
+	position: absolute;
+	top: 45%;
+	left: 5%;
 }
